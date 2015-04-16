@@ -22,6 +22,7 @@
 		7D378CA51ADD7C970064EDEC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D378CA41ADD7C970064EDEC /* SystemConfiguration.framework */; };
 		7D378CA71ADD7C9F0064EDEC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D378CA61ADD7C9F0064EDEC /* libz.dylib */; };
 		7D378CA91ADD7CAA0064EDEC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D378CA81ADD7CAA0064EDEC /* libsqlite3.dylib */; };
+		7D40B2C91ADED30A0012739C /* SignUpInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D40B2C81ADED30A0012739C /* SignUpInViewController.swift */; };
 		7D958CD51ADC55B800EFB46B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D958CD41ADC55B800EFB46B /* AppDelegate.swift */; };
 		7D958CD71ADC55B800EFB46B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D958CD61ADC55B800EFB46B /* ViewController.swift */; };
 		7D958CDA1ADC55B800EFB46B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D958CD81ADC55B800EFB46B /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 		7D378CA41ADD7C970064EDEC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7D378CA61ADD7C9F0064EDEC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		7D378CA81ADD7CAA0064EDEC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		7D40B2C81ADED30A0012739C /* SignUpInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpInViewController.swift; sourceTree = "<group>"; };
 		7D958CCF1ADC55B800EFB46B /* Signup-Tutorial-Parse-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Signup-Tutorial-Parse-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D958CD31ADC55B800EFB46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D958CD41ADC55B800EFB46B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -138,8 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				7D958CD41ADC55B800EFB46B /* AppDelegate.swift */,
-				7D958CD61ADC55B800EFB46B /* ViewController.swift */,
 				7D958CD81ADC55B800EFB46B /* Main.storyboard */,
+				7D40B2C81ADED30A0012739C /* SignUpInViewController.swift */,
+				7D958CD61ADC55B800EFB46B /* ViewController.swift */,
 				7D958CDB1ADC55B800EFB46B /* Images.xcassets */,
 				7D958CDD1ADC55B800EFB46B /* LaunchScreen.xib */,
 				7D958CD21ADC55B800EFB46B /* Supporting Files */,
@@ -274,6 +277,7 @@
 			files = (
 				7D958CD71ADC55B800EFB46B /* ViewController.swift in Sources */,
 				7D958CD51ADC55B800EFB46B /* AppDelegate.swift in Sources */,
+				7D40B2C91ADED30A0012739C /* SignUpInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
